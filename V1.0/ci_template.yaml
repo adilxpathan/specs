@@ -11,7 +11,7 @@ codeCoverage:
   isCodecoverageRequired: true
   tool: jacoco
 codeQuality:
-  isCodeQualityRequired: yes
+  isCodeQualityRequired: false
   tool: sonarqube
   projectKey: ltipetclinic
   projectName: ltipetclinic
