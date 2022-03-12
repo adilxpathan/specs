@@ -5,13 +5,13 @@ build:
   type: java
   tool: maven
 unitTest:
-  isUnittestRequired: false
+  isUnittestRequired: true
   tool: junit
 codeCoverage:
-  isCodecoverageRequired: false
+  isCodecoverageRequired: true
   tool: jacoco
 codeQuality:
-  isCodeQualityRequired: false
+  isCodeQualityRequired: yes
   tool: sonarqube
   projectKey: Petclinic
   projectName: Petclinic
