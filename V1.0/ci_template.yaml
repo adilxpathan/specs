@@ -1,5 +1,5 @@
 scm:
-  repo: "https://github.com/spring-petclinic/spring-framework-petclinic.git"
+  repo: "https://github.com/pathanadil/spring-framework-petclinic.git"
   branch: "master"
 build:
   type: java
