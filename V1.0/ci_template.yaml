@@ -13,8 +13,8 @@ codeCoverage:
 codeQuality:
   isCodeQualityRequired: yes
   tool: sonarqube
-  projectKey: Petclinic
-  projectName: Petclinic
+  projectKey: ltipetclinic
+  projectName: ltipetclinic
 dockerBuild:
   isDockerBuildRequired: false
 dockerDeploy:
