@@ -18,5 +18,5 @@ codeQuality:
 dockerBuild:
   isDockerBuildRequired: false
 dockerDeploy:
-  isDockerDeployRequired: true
+  isDockerDeployRequired: false
   
