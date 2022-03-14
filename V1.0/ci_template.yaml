@@ -2,7 +2,7 @@ scm:
   repo: "https://github.com/pathanadil/spring-framework-petclinic.git"
   branch: "master"
 build:
-  type: python
+  type: java
   tool: maven
 unitTest:
   isUnittestRequired: true
