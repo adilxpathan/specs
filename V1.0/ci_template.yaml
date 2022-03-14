@@ -8,15 +8,16 @@ unitTest:
   isUnittestRequired: true
   tool: junit
 codeCoverage:
-  isCodecoverageRequired: false
+  isCodecoverageRequired: true
   tool: jacoco
 codeQuality:
-  isCodeQualityRequired: false
+  isCodeQualityRequired: true
   tool: sonarqube
   projectKey: ltipetclinic
   projectName: ltipetclinic
-dockerBuild:
-  isDockerBuildRequired: false
-dockerDeploy:
-  isDockerDeployRequired: false
+  
+#dockerBuild:
+#  isDockerBuildRequired: false
+#dockerDeploy:
+#  isDockerDeployRequired: false
   
