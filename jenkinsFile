@@ -2,13 +2,13 @@
 node('master'){
     ansiColor('xterm'){
         env.LOG_LEVEL = "INFO"
-        println "log level is set to: " + env.LOG_LEVEL
+        println "System log level is set  to: " + env.LOG_LEVEL
         
-        env.AppLogLevel = "ERROR" 
+        env.AppLogLevel = "ALL" 
         println "Application log level is set to: " + env.AppLogLevel
         
         withEnv(['APP_LOG_LEVEL=' + env.AppLogLevel ]) {
-            java_jenkinsfile()
+            jenkinsfile()
         }
     }
 }
