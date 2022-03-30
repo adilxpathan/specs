@@ -18,6 +18,11 @@ codeQuality:
   projectName: sharedlib
   #projectKey: ltipetclinic
   #projectName: ltipetclinic
+  url: "https://sonarcloud.io"
+  #login: "44b2720c97020fd2e46525766221bf2ac48ffe73"
+  login: "f14cf6ebc334f13dafdfe55ca113ace9ca955e48"
+  #organization: "ltipetclinic"
+  organization: "sharedlib"
   
 #dockerBuild:
 #  isDockerBuildRequired: false
