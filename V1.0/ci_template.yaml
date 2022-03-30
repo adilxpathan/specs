@@ -1,17 +1,18 @@
 scm:
-  repo: "https://github.com/pathanadil/spring-framework-petclinic.git"
+  repo: https://github.com/pathanadil/SharedLibrary.git
+  #repo: "https://github.com/pathanadil/spring-framework-petclinic.git"
   branch: "master"
 build:
   type: java
   tool: maven
 unitTest:
-  isUnittestRequired: true
+  isUnittestRequired: false
   tool: junit
 codeCoverage:
-  isCodecoverageRequired: true
+  isCodecoverageRequired: false
   tool: jacoco
 codeQuality:
-  isCodeQualityRequired: true
+  isCodeQualityRequired: false
   tool: sonarqube
   projectKey: ltipetclinic
   projectName: ltipetclinic
