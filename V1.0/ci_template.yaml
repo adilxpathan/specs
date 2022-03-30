@@ -14,8 +14,10 @@ codeCoverage:
 codeQuality:
   isCodeQualityRequired: false
   tool: sonarqube
-  projectKey: ltipetclinic
-  projectName: ltipetclinic
+  projectKey: sharedlib
+  projectName: sharedlib
+  #projectKey: ltipetclinic
+  #projectName: ltipetclinic
   
 #dockerBuild:
 #  isDockerBuildRequired: false
