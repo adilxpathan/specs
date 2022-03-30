@@ -1,6 +1,5 @@
 scm:
-  repo: https://github.com/pathanadil/SharedLibrary.git
-  #repo: "https://github.com/pathanadil/spring-framework-petclinic.git"
+  repo: "https://github.com/pathanadil/spring-framework-petclinic.git"
   branch: "master"
 build:
   type: java
@@ -14,15 +13,11 @@ codeCoverage:
 codeQuality:
   isCodeQualityRequired: true
   tool: sonarqube
-  projectKey: sharedlib
-  projectName: sharedlib
-  #projectKey: ltipetclinic
-  #projectName: ltipetclinic
+  projectKey: ltipetclinic
+  projectName: ltipetclinic
   url: "https://sonarcloud.io"
-  #login: "44b2720c97020fd2e46525766221bf2ac48ffe73"
-  login: "f14cf6ebc334f13dafdfe55ca113ace9ca955e48"
-  #organization: "ltipetclinic"
-  organization: "sharedlib"
+  login: "44b2720c97020fd2e46525766221bf2ac48ffe73"
+  organization: "ltipetclinic"
   
 #dockerBuild:
 #  isDockerBuildRequired: false
