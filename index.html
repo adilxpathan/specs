@@ -2,11 +2,25 @@
 <html>
 
    <head>
-      <title>HTML Table Cellpadding</title>
+        <style>
+    .top
+    {
+      position: relative;
+      top: 0;
+      left: 0;
+    }
+    .bottom
+    {
+      position: absolute;
+      top: 60px;
+      left: 80px;
+    }
+  </style>
    </head>
 	
    <body>
-    <img src="letsSolve.png">
+    <img src="letsSolve.png" class="top">
+   <img src="letsSolve.png" class="bottom">
       <table border = "1" cellpadding = "5" cellspacing = "5">
          <tr>
             <th>Stage</th>
