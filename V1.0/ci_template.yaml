@@ -11,7 +11,7 @@ codeCoverage:
   isCodecoverageRequired: false
   tool: jacoco
 codeQuality:
-  isCodeQualityRequired: true
+  isCodeQualityRequired: false
   tool: sonarqube
   projectKey: sharedlib
   projectName: sharedlib
