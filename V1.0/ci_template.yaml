@@ -1,7 +1,8 @@
 scm:
   #repo: https://github.com/pathanadil/SharedLibrary.git
   repo: https://github.com/werne2j/jenkins-shared-library.git
-  branch: "master"
+  #branch: "master"
+  branch: "tests"
 build:
   type: java
   tool: maven
